@@ -3,11 +3,28 @@
     height: 80px;
 } */
 
-#img {
-    width: 50px;
+#search {
+  width: 201px;
+  height: 18px;
+  margin-top: 22px;
+  margin-right: 10px;
+}
+
+#logo {
     border-radius: 7px, solid;
     background-color: #c10a27;
-    left:12px;
+    font-weight: bold;
+    font-size: 35px;
+    font-style: italic;
+    width: 50px;
+    height: 42px;
+    margin-right: 533px;
+    margin-top: 4px;
+}
+
+.fa, fa-cart-arrow-down, fa-1x {
+  color: white;
+
 }
 
 // @import "compass/css3";

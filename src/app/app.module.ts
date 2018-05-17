@@ -10,6 +10,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,15 @@ import { FooterComponent } from './footer/footer.component';
     ProduitFicheComponent,
     HeaderComponent,
     FooterComponent,
+    NotFoundComponent,
     
   ],
   imports: [
     BrowserModule,
     MatMenuModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    AppRoutingModule
     
   ],
   providers: [],
